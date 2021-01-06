@@ -1,0 +1,106 @@
+@media screen and (max-width: 769px) {
+    header {
+        padding: 5.4% 6.2% 5.2% 6.3%;
+
+        .header-promo {
+            padding-left: 0;
+
+            &-description {
+                line-height: 5.68rem;
+            }
+        }
+    }
+
+    main {
+        width: 97.4%;
+        margin: 0 auto;
+
+        h4 {
+            font-size: 1.572em;
+        }
+
+        h5 {
+            line-height: 14px;
+            margin: 2em 0 1.2em;
+        }
+
+        section {
+            margin-top: 6.9em;
+        }
+
+        .works {
+
+            .works-card {
+                width: 31.55%;
+                margin-top: 1.2em;
+                padding: 0 2.17% 2% 2.9%;
+            }
+
+            .step-2 h5 {
+                margin-top: 0.7em;
+                margin-bottom: 0.9em;
+            }
+        }
+
+        .partner {
+            width: 65.78%;
+            height: 519px;
+            margin: 0 auto;
+
+            &-card {
+                height: 224px;
+                width: 48%;
+                padding-top: 16px;
+            }
+
+            .person-3 {
+                order: 1;
+            }
+
+            .person-2 {
+                order: 2;
+            }
+
+            .person-4 {
+                order: 3;
+            }
+
+            &-btn {
+                margin: 0 auto;
+            }
+        }
+
+        .ideas {
+            margin-top: 2.6em;
+
+            .idea {
+                padding: 0 15px;
+            }
+
+            .idea:nth-child(1) {
+                padding-bottom: 25px;
+            }
+        }
+
+        .interests {
+            padding: 31px;
+        }
+    }
+
+    footer {
+        padding: 5.1% 4.7% 2% 5.31%;
+        margin-top: 3.1rem;
+
+        .item {
+            width: 28.65%;
+        }
+
+        .item:nth-child(2) {
+            width: 20.17%;
+        }
+
+        .item:nth-child(3) {
+            width: 10%;
+        }
+    }
+}

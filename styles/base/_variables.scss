@@ -1,0 +1,9 @@
+%d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@mixin font($f, $s) {
+    font-family: $f;
+    font-size: $s;
+}

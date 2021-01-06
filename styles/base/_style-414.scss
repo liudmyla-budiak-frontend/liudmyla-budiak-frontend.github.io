@@ -1,0 +1,175 @@
+@media screen and (max-width: 414px) {
+    header {
+        height: 540px;
+        text-align: center;
+        padding: 5.8% 5%;
+        margin-left: 10px;
+
+        .header-menu {
+            height: 154px;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            &-link {
+                margin-left: 10px;
+            }
+
+            &-button {
+                margin-right: 10px;
+            }
+        }
+
+        .header-promo {
+            margin-top: 1.4em;
+            margin-left: 4px;
+
+            &-tagline {
+                font-size: 1.875rem;
+            }
+
+            &-description {
+                font-size: 1.125rem;
+                line-height: 1.5rem;
+                margin: 8px 0 14px;
+            }
+
+            &-btn {
+                padding: 1.1em 3.2em 0.9em;
+            }
+        }
+    }
+
+    main {
+        width: 100%;
+        padding: 0 10px;
+
+        section {
+            margin-top: 2.5em;
+        }
+
+        h4 {
+            margin-bottom: 1.2rem;
+        }
+
+        h5 {
+            margin: 2em 0 1em;
+        }
+
+        .works {
+            height: 738px;
+            align-content: space-between;
+
+            .works-card {
+                width: 100%;
+                height: 240px;
+                margin-top: 0;
+                padding: 21px 29px 15px 19px;
+            }
+
+            .step-2 h5 {
+                margin-top: 1.3em;
+                margin-bottom: 1em;
+            }
+        }
+
+        #meet {
+            margin-top: 39px;
+            margin-bottom: 0.65em;
+            line-height: 26px;
+        }
+
+        .partner {
+            width: 238px;
+            height: 900px;
+
+            &-card {
+                width: 100%;
+                height: 205px;
+                padding-top: 0;
+            }
+
+            .person-3 {
+                height: 224px;
+            }
+
+            &-btn {
+                width: 280px;
+                margin: 1.4rem auto;
+            }
+        }
+
+        #activity {
+            line-height: 1.67rem;
+            padding: 0 15px;
+        }
+
+        .ideas {
+            height: 900px;
+            margin-top: 2.4em;
+
+            .idea,
+            .idea:nth-child(5),
+            .idea:nth-child(6) {
+                height: 120px;
+                width: 100%;
+                padding: 0;
+            }
+
+            .idea:nth-child(1) {
+                padding: 0 48px 25px;
+            }
+
+            .idea:nth-child(2) {
+                padding: 0 48px;
+            }
+        }
+
+        .interests {
+            padding: 0;
+
+            form {
+                width: 280px;
+                height: 100px;
+                margin-top: 11px;
+
+                input,
+                button {
+                    width: 100%;
+                }
+            }
+        }
+
+        #crate {
+            margin-top: 2.3rem;
+            line-height: 1.676rem;
+        }
+    }
+
+    footer {
+        margin-top: 30px;
+        padding: 23px 49px;
+
+        .item,
+        .item:nth-child(2),
+        .item:nth-child(3) {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 14px;
+
+            h6 {
+                margin-bottom: 0.4em;
+            }
+
+
+            a {
+                display: inline;
+                line-height: 22px;
+                margin-right: 3px;
+            }
+        }
+
+        .desined span {
+            margin-bottom: 3px;
+        }
+    }
+}
